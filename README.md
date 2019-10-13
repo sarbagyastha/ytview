@@ -1,0 +1,2 @@
+The plugin is fork of [webview_flutter](https://pub.dartlang.org/packages/webview_flutter). Donot use this plugin.
+This plugin was only published in order to support media playback with webview for [youtube_player_flutter](https://pub.dartlang.org/packages/youtube_player_flutter).

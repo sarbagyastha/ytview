@@ -1,0 +1,25 @@
+name: ytview
+description: A Flutter plugin that provides a WebView widget on Android and iOS.
+version: 1.0.0+1
+author: Sarbagya <mbmcconfess@gmail.com>
+homepage: https://github.com/sarbagyastha/ytview
+
+environment:
+  sdk: ">=2.5.0 <3.0.0"
+  flutter: ">=1.5.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: np.com.sarbagyastha.ytview
+    iosPrefix: YT
+    pluginClass: WebViewFlutterPlugin
