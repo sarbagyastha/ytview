@@ -59,7 +59,7 @@ class _WebViewExampleState extends State<WebViewExample> {
                     videoId: '50kklGefAcs',
                     playerVars: {
                         'controls': 0,
-                        'autoplay': 0,
+                        'autoplay': 1,
                         'playsinline': 1,
                         'enablejsapi': 1,
                         'fs': 0,
@@ -69,6 +69,12 @@ class _WebViewExampleState extends State<WebViewExample> {
                         'modestbranding': 1,
                         'cc_load_policy': 1,
                     },
+                    events: {
+                      onReady: (event) => {
+                        setTimeout(forceHideAnnotation, 3000)
+                        
+                      },
+                    }
                 });
             }
         </script>
